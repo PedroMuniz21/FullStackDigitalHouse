@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formlários</h1>
+
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        <br>
+        <label for="email">Email</label>
+        <input tye="email" id="email" name="email" nome="email" placeholder="email@me.com"required>
+        <br>
+        <lebel for="senha">Senha</lebel>
+        <input type="password" id="senha" nome="senha" name="senha">
+        <br><br>
+        <label>Você já foi ao cinema esse ano?</label>
+        <br>
+        <input type="radio" id="sim" name="cinema" value="sim" checked><label for="sim">Sim</label>
+        <br>
+        <input type="radio" id="nao" name="cinema" value="nao"><label for="nao">Não</label>
+        <br>
+        <label for="genero">Qual seu genero de cinema favorito?</label>
+        <br>
+        <input type="checkbox" name="genero" value="terror" id="terror" checked><label for="terror">Terror</label>
+        <br>
+        <input type="checkbox" name="genero" value="drama" id="drama"checked><label for="drama">Drama</label>
+        <br>
+        <input type="checkbox" name="genero" value="romance" id="romance"checked><label for="romance">Romance</label>
+        <br>
+
+        <label for="pais">País</label>
+        <select for="pais" id="pais">
+            <option selected disabled>Selecione</option>
+            <option value="BRA">Brasil</option>
+            <option value="AR">Argentina</option>
+            <option value="UY">Uruguai</option>
+        </select>
+        <br>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+        <br>
+    <!--<input type="submit" value="enviar"> -->
+    <butom type="button">Teste</butom>
+
+    <button type="reset">Limpar Campos</button>
+    <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>

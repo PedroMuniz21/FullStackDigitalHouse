@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Shoes Store</title>
+</head>
+<body>
+  <header class="container">
+    <img src="./img/logo-color.png" alt="Logo">
+    <nav>
+      <a href="#" class="nav-link">Todos os Produtos</a>
+      <a href="#" class="nav-link">Coleções</a>
+      <a href="#" class="nav-link">Outlet</a>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="frete"> Mês de setembro - Frete gratís para todo Brasil!!!</div>
+   <section class="trabalhe-conosco">
+     <h1>Faça parte do nosso time</h1>
+     <div class="contato">
+       <form class="form dividir-contato" action="">
+         <label for="nome">Nome</label>
+         <input id="nome" name="nome" type="text">
+
+         <label for="email">Email</label>
+         <input id="email" name="email" type="email">
+
+         <label for="telefone">Telefone</label>
+         <input id="telefone" name="telefone" type="tel">
+
+         <label for="departamento">Departamentos</label>
+         <select name="departamento" id="departamento">
+           <option disabled selected>Selecione um departamento</option>
+           <option value="desenvolvimento">Desenvolvimento</option>
+           <option value="design">Design</option>
+           <option value="dados">Dados</option>
+         </select>
+
+         <div class="opcoes">
+
+          <h2>Disponibilidade</h2>
+           
+          <input id="opcao-integral" name="disponibilidade" type="checkbox">
+          <label for="opcao-integral">Integral (8h)</label>
+          
+          <input id="opcao-meio-periodo" name="disponibilidade" type="checkbox">
+          <label for="opcao-meio-periodo">Meio período (4h)</label>
+          
+          <input id="opcao-freelancer" name="disponibilidade" type="checkbox">
+          <label for="opcao-freelancer">Freelancer</label>
+        </div>
+
+        <div class="opcoes">
+
+          <h2>Qual a melhor forma para entrarmos em contato com você?</h2>
+          
+          <input id="opcao-email" name="contato" type="radio">
+          <label for="opcao-email">Email</label>
+          
+          <input id="opcao-ligacao" name="contato" type="radio">
+          <label for="opcao-ligacao">Ligação</label>
+          
+          <input id="opcao-whatsapp" name="contato" type="radio">
+          <label for="opcao-whatsapp">Whatsapp</label>
+        </div>
+        
+         <label for="mensagem">Mensagem</label>
+         <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+
+         <div class="curriculo">
+           <label for="curriculo">Currículo</label>
+           <input type="file" name="curriculo" id="curriculo">
+           <label for="curriculo" id="curriculo-label">upload</label>
+          </div>
+
+         <button class="btn-submit">enviar</button>
+       </form>
+      
+       <article class="dividir-contato">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatem rerum atque necessitatibus aut iure quia molestiae. Laboriosam odit commodi atque non repellat laudantium accusantium rerum harum numquam. Cumque, modi?</p>
+          <p>Non eum commodi accusantium excepturi repellat voluptate repudiandae optio? Iusto quibusdam reprehenderit aperiam nisi! Rem, beatae excepturi molestiae eveniet ad quis dolores dolor quas, cum obcaecati nobis quos facere fugiat?</p>
+          <p>Quibusdam totam praesentium officiis quidem sapiente, perspiciatis excepturi? Dicta numquam sunt quibusdam quo quisquam facere. Necessitatibus accusamus excepturi doloribus commodi beatae sequi debitis porro fugit, quae doloremque ullam repellat dolorem!</p>
+        </article>
+     </div>
+   </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="logo-footer">
+        <img src="./img/logo-white.png" alt="Logo na cor branca">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <div class="categorias">
+        <h3><a href="#">Categorias</a></h3>
+        <a href="#" class="footer-link">sandálias</a>
+        <a href="#" class="footer-link">botas</a>
+        <a href="#" class="footer-link">tênis</a>
+        <a href="#" class="footer-link">oxford</a>
+        <a href="#" class="footer-link">coturnos</a>
+      </div>
+      <div class="institucional">
+        <h3><a href="#">Institucional</a></h3>
+        <a href="#" class="footer-link">sobre nós</a>
+        <a href="#" class="footer-link">perguntas frequentes</a>
+        <a href="#" class="footer-link">política de privacidade</a>
+        <a href="#" class="footer-link">rastreamento de pedidos</a>
+        <a href="#" class="footer-link">trabalhe conosco</a>
+        <a href="#" class="footer-link">contato</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

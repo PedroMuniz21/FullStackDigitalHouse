@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #777;
+}
+
+.nav-link + .nav-link {
+  margin-left: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.encontre-seu-estilo-imagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.encontre-seu-estilo-imagens img:first-child {
+  margin-right: 60px;
+}
+
+.footer {
+  background-color: #C2185B;
+  padding: 30px 30px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-link, h3 a, .footer{
+  color: #FFF;
+}
+
+.categorias, .institucional {
+  display: flex;
+  flex-direction: column;
+}
+
+.categorias {
+  margin-right: 80px;
+}
+
+.logo-footer {
+  width: 30%;
+  margin-right: auto;
+}
+
+.contato {
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px 30px;
+}
+
+.dividir-contato {
+  flex: 1;
+}
+
+label, h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #9B9B9B;
+  margin-bottom: 5px;
+}
+
+input, select, textarea {
+  margin-bottom: 15px;
+  border: solid 1px #9B9B9B;
+  padding: 5px 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.opcoes label {
+  font-size: 14px;
+}
+
+.btn-submit {
+  background-color: #C2185B;
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.curriculo {
+  margin-bottom: 15px;
+}
+
+.curriculo input {
+  display: none;
+}
+
+#curriculo-label {
+  background-color: #C4C4C4;
+  padding: 3px 38px;
+  font-size: 14px;
+  color: #FFF;
+  margin-left: 10px;
+}
+
+.btn-submit, #curriculo-label {
+  cursor: pointer;
+}
+
+.frete {
+  text-align: center;
+    text-transform: uppercase;
+    background-color: #C2185B;
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+}
